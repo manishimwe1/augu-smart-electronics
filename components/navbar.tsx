@@ -82,12 +82,12 @@ export const Navbar = ({ onOpenDiagnostic }: NavbarProps) => {
                   it doesn't break the layout, while 'object-contain' 
                   keeps the logo aspect ratio correct.
                */}
-              <div className="relative h-12 w-48 md:h-14 md:w-[250px] transition-all duration-300 rounded-2xl overflow-hidden">
+              <div className="relative h-16 w-48 md:h-20 md:w-[250px] transition-all duration-300 rounded-2xl overflow-hidden">
                 <Image
                   src="/logo3.png" // Ensure this matches your file name exactly
                   alt="AUGU Smart Electronic Service"
                   fill
-                  className="object-contain object-left"
+                  className="object-fill object-left"
                   priority
                   
                 />

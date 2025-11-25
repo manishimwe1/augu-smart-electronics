@@ -4,7 +4,7 @@ import React from "react";
 
 const HeroClean = () => {
   return (
-    <section className="relative bg-white pt-28 pb-20 lg:pt-36 lg:pb-32 overflow-hidden">
+    <section className="relative pt-28 pb-20 lg:pt-36 lg:pb-32 overflow-hidden ">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="lg:grid lg:grid-cols-12 gap-12 items-center">
           
