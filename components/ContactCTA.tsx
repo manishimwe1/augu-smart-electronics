@@ -19,7 +19,7 @@ const ContactCTA = () => {
 
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-6 tracking-tight">
             Broken device? <br />
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-300">
+            <span className="text-transparent bg-clip-text bg-linear-to-r from-blue-400 to-cyan-300">
               Let's get it fixed today.
             </span>
           </h2>
